@@ -148,11 +148,55 @@ footer { border-top: 1px solid var(--line); }
 .institutional .page-intro { border-bottom: 1px solid var(--accent); }
 
 /* Editorial */
-.editorial .site-header { border-bottom: 1px solid var(--line); }
-.editorial .wordmark { font-family: var(--serif); font-size: 21px; font-weight: 600; }
-.editorial .tabs a { border-bottom: 3px solid transparent; font-family: var(--serif); font-size: 15px; }
+.editorial {
+  --ink: #1d1d1f;
+  --muted: #6e6e73;
+  --line: #d2d2d7;
+  --soft: #f5f5f7;
+  --accent: #1d1d1f;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+}
+.editorial .site-header { border-bottom: 1px solid rgba(0, 0, 0, .12); background: rgba(255, 255, 255, .88); -webkit-backdrop-filter: saturate(180%) blur(18px); backdrop-filter: saturate(180%) blur(18px); }
+.editorial .wordmark { font-size: 18px; font-weight: 650; }
+.editorial .tabs a { padding-right: 19px; padding-left: 19px; border-bottom: 2px solid transparent; font-size: 16px; font-weight: 500; }
 .editorial .tabs a[aria-current="page"] { border-bottom-color: var(--accent); }
-.editorial .portrait { filter: saturate(.88); }
+.editorial h1,
+.editorial .recruiting h2,
+.editorial .publication-year h2,
+.editorial .people-section h2,
+.editorial .course h2,
+.editorial .course-term,
+.editorial .paper-month,
+.editorial .prose p { font-family: inherit; }
+.editorial h1 { font-weight: 650; }
+.editorial .hero { gap: 72px; padding: 72px 0 64px; }
+.editorial .portrait { filter: saturate(.9) contrast(1.02); }
+.editorial .appointments { gap: 18px; }
+.editorial .appointment strong { font-size: 17px; font-weight: 600; }
+.editorial .appointment a { font-size: 15px; line-height: 1.55; }
+.editorial .actions { gap: 22px; }
+.editorial .section-label { color: var(--ink); font-size: 14px; font-weight: 650; text-transform: none; }
+.editorial .biography { background: var(--soft); box-shadow: 0 0 0 100vmax var(--soft); clip-path: inset(0 -100vmax); }
+.editorial .prose p { color: #3a3a3c; font-size: 16px; line-height: 1.72; }
+.editorial .content-header { background: var(--soft); box-shadow: 0 0 0 100vmax var(--soft); clip-path: inset(0 -100vmax); }
+.editorial .content-header h1 { font-size: 32px; }
+.editorial .content-header a,
+.editorial .actions a { font-size: 15px; font-weight: 500; }
+.editorial .news-list time { font-size: 13px; }
+.editorial .news-archive .news-list time { color: var(--muted); }
+.editorial .paper-month,
+.editorial .paper .paper-authors { font-size: 14px; }
+.editorial .paper-venue { font-size: 15px; }
+.editorial .paper-links a,
+.editorial .member-link,
+.editorial .course a { font-size: 12px; }
+.editorial .member p,
+.editorial .course p,
+.editorial .demo-notice { font-size: 14px; }
+.editorial .course-code { font-size: 13px; }
+.editorial .footer-inner { font-size: 13px; }
+.editorial footer { background: var(--soft); }
 
 /* Research lab */
 .lab { --accent: #1456d9; --accent-2: #d4432f; --soft: #f1f5fa; font-family: "Helvetica Neue", Arial, sans-serif; }
