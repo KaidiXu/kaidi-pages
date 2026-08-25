@@ -1,0 +1,36 @@
+sections:
+  - title: Current PhD Students
+    members:
+      - name: John Doe
+        role: PhD Student
+        joined: 2025
+        interests: Formal verification and neural network robustness.
+        photo: assets/demo-john-doe.png
+        homepage: "#"
+      - name: Jane Smith
+        role: PhD Student
+        joined: 2024
+        interests: Uncertainty quantification and trustworthy language models.
+        photo: assets/demo-jane-smith.png
+        homepage: "#"
+  - title: Current Master's Students
+    members:
+      - name: Emily Chen
+        role: Master's Student
+        joined: 2026
+        interests: Adversarial machine learning and AI security.
+        photo: assets/demo-emily-chen.png
+        homepage: "#"
+  - title: Alumni
+    members:
+      - name: Michael Lee
+        role: Ph.D. 2025
+        joined: 2021
+        interests: Postdoctoral Researcher, Example University.
+        photo: assets/demo-michael-lee.png
+        homepage: "#"
+
+recruiting:
+  title: Join the group
+  text: >-
+    We are seeking highly motivated students and postdoctoral researchers with strong backgrounds in deep learning. Fully supported positions are available for Spring and Fall 2027.

@@ -1,0 +1,31 @@
+{% assign profile = site.data.profile %}
+<section class="hero">
+  <div>
+    <h1>{{ profile.name }}</h1>
+    <div class="appointments">
+      {% for appointment in profile.appointments %}
+        <div class="appointment"><div><strong>{{ appointment.title }}</strong><a href="{{ appointment.url }}">{{ appointment.organization }}</a></div></div>
+      {% endfor %}
+    </div>
+    <div class="actions">
+      {% for link in profile.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
+    </div>
+  </div>
+  <div class="portrait-wrap"><img class="portrait" src="{{ '/' | append: profile.portrait | relative_url }}" alt="{{ profile.portrait_alt }}"></div>
+</section>
+<section class="section biography">
+  <p class="section-label">Biography</p>
+  <div class="prose">{% for paragraph in profile.biography %}<p>{{ paragraph }}</p>{% endfor %}</div>
+</section>
+<section class="section recruiting">
+  <h2>{{ profile.recruiting.title }}</h2>
+  <p>{{ profile.recruiting.text }}</p>
+</section>
+<section class="section recent-news">
+  <p class="section-label">Recent News</p>
+  <ul class="news-list">
+    {% for item in site.data.news limit: 5 %}<li><time datetime="{{ item.date }}">{{ item.display_date }}</time><span>{{ item.text }}</span></li>{% endfor %}
+  </ul>
+  <a class="more-link" href="{{ '/' | append: page.theme | append: '/news.html' | relative_url }}">View all news →</a>
+</section>
+

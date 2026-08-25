@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kaidi Xu — {{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+</head>
+<body class="{{ page.theme }}">
+  {% include header.html %}
+  <main class="page-main">
+    {% case page.page_key %}
+      {% when "overview" %}{% include overview.html %}
+      {% when "publications" %}{% include publications.html %}
+      {% when "group" %}{% include group.html %}
+      {% when "teaching" %}{% include teaching.html %}
+      {% when "news" %}{% include news.html %}
+    {% endcase %}
+  </main>
+  {% include footer.html %}
+</body>
+</html>
+

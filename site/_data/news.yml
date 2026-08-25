@@ -1,0 +1,57 @@
+- date: "2026-05"
+  month: May
+  display_date: 05 / 2026
+  text: Two papers were accepted (2× ICML)!
+- date: "2026-04"
+  month: Apr
+  display_date: 04 / 2026
+  text: Three papers were accepted (1× ACL, 1× AIED, 1× ICDM)!
+- date: "2026-03"
+  month: Mar
+  display_date: 03 / 2026
+  text: I am serving as an Area Chair for NeurIPS and COLM 2026.
+- date: "2026-01"
+  month: Jan
+  display_date: 01 / 2026
+  text: Five papers were accepted (3× ICLR, 1× EACL, 1× CPAL)!
+- date: "2025-11"
+  month: Nov
+  display_date: 11 / 2025
+  text: Two papers were accepted to AAAI 2026 (1 oral, 1 poster)!
+- date: "2025-10"
+  month: Oct
+  display_date: 10 / 2025
+  text: I am serving as an Area Chair for ARR OCT 2026!
+- date: "2025-08"
+  month: Aug
+  display_date: 08 / 2025
+  text: I am serving as an Area Chair for ICLR 2026!
+- date: "2025-08"
+  month: Aug
+  display_date: 08 / 2025
+  text: Four papers were accepted (1× ACM MM, 1× ICCV, 2× EMNLP).
+- date: "2025-05"
+  month: May
+  display_date: 05 / 2025
+  text: Three papers were accepted (1× ICML, 2× ACL)!
+- date: "2025-03"
+  month: Mar
+  display_date: 03 / 2025
+  text: I am serving as an Area Chair for NeurIPS 2025!
+- date: "2024-09"
+  month: Sep
+  display_date: 09 / 2024
+  text: Four papers were accepted (1× NDSS, 1× EMNLP, 2× NeurIPS)!
+- date: "2024-07"
+  month: Jul
+  display_date: 07 / 2024
+  text: Three papers were accepted (1× ECCV, 1× ACM MM, 1× RSS)!
+- date: "2024-05"
+  month: May
+  display_date: 05 / 2024
+  text: Received the Faculty Research Excellence Award from CCI at Drexel.
+- date: "2024-03"
+  month: Mar
+  display_date: 03 / 2024
+  text: Received an NSF grant on decision-embedded deep learning for transit systems.
+

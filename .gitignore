@@ -1,3 +1,5 @@
 .DS_Store
 wordpress_export/
-
+_site-preview/
+.bundle/
+vendor/

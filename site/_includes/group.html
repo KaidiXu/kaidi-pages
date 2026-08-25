@@ -1,0 +1,20 @@
+<header class="content-header"><h1>Group</h1></header>
+{% for section in site.data.people.sections %}
+  <section class="people-section">
+    <h2>{{ section.title }}</h2>
+    <div class="member-list">
+      {% for member in section.members %}
+        <article class="member">
+          <img class="member-photo" src="{{ '/' | append: member.photo | relative_url }}" alt="Demo portrait of {{ member.name }}">
+          <div>
+            <h3><a href="{{ member.homepage }}">{{ member.name }}</a></h3>
+            <p class="member-meta">{{ member.role }} · Joined {{ member.joined }}</p>
+            <p>{{ member.interests }}</p>
+            <a class="member-link" href="{{ member.homepage }}">Personal homepage ↗</a>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+{% endfor %}
+<section class="section recruiting"><h2>{{ site.data.people.recruiting.title }}</h2><p>{{ site.data.people.recruiting.text }}</p></section>

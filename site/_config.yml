@@ -1,0 +1,8 @@
+title: Kaidi Xu
+description: Academic homepage of Professor Kaidi Xu
+url: https://cute149q.github.io
+baseurl: /kaidi-pages
+destination: ../_site-preview
+strict_front_matter: true
+exclude:
+  - README.md

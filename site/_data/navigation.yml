@@ -1,0 +1,13 @@
+- id: overview
+  label: Overview
+  file: index.html
+- id: publications
+  label: Publications
+  file: publications.html
+- id: group
+  label: Group
+  file: group.html
+- id: teaching
+  label: Teaching
+  file: teaching.html
+

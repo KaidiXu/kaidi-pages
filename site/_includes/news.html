@@ -1,0 +1,12 @@
+<header class="content-header"><h1>News</h1></header>
+<section class="section news-archive">
+  {% assign news_years = site.data.news | group_by_exp: "item", "item.date | slice: 0, 4" %}
+  {% for year in news_years %}
+    <div class="publication-year">
+      <h2>{{ year.name }}</h2>
+      <ul class="news-list">
+        {% for item in year.items %}<li><time datetime="{{ item.date }}">{{ item.month }}</time><span>{{ item.text }}</span></li>{% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</section>

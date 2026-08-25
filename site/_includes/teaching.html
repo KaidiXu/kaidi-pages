@@ -1,0 +1,11 @@
+<header class="content-header"><h1>Teaching</h1></header>
+<section class="section">
+  {% for course in site.data.teaching %}
+    <article class="course">
+      <time class="course-term">{{ course.academic_year }}<span>{{ course.semester }}</span></time>
+      <div><span class="course-code">{{ course.code }}</span><h2>{{ course.title }}</h2><p>{{ course.description }}</p></div>
+      <a href="{{ course.syllabus }}">Syllabus</a>
+    </article>
+  {% endfor %}
+</section>
+
