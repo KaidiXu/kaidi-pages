@@ -56,8 +56,6 @@ const news = `
 
 const content = { overview, publications, group, teaching, news };
 const tabMarkup = pages.map(([id, label, href]) => `<a href="${href}"${id === page ? ' aria-current="page"' : ""}>${label}</a>`).join("");
-const pageFile = page === "news" ? "news.html" : pages.find(([id]) => id === page)?.[2] || "index.html";
-const conceptMarkup = ["editorial", "lab", "institutional"].map(id => `<a href="../${id}/${pageFile}"${id === theme ? ' aria-current="page"' : ""}>${id === "lab" ? "Lab" : id[0].toUpperCase() + id.slice(1)}</a>`).join("");
 
 document.title = `Kaidi Xu — ${page === "news" ? "News" : pages.find(([id]) => id === page)?.[1] || "Overview"}`;
-document.body.insertAdjacentHTML("afterbegin", `<header class="site-header"><div class="header-inner"><a class="wordmark" href="index.html">${themes[theme].label}</a><nav class="tabs" aria-label="Primary navigation">${tabMarkup}</nav></div></header><main class="page-main">${content[page]}</main><footer><div class="footer-inner"><span>© 2026 Kaidi Xu</span><span>${themes[theme].footer}</span></div></footer><nav class="concept-switcher" aria-label="Switch concept"><a href="../index.html">All</a>${conceptMarkup}</nav>`);
+document.body.insertAdjacentHTML("afterbegin", `<header class="site-header"><div class="header-inner"><a class="wordmark" href="index.html">${themes[theme].label}</a><nav class="tabs" aria-label="Primary navigation">${tabMarkup}</nav></div></header><main class="page-main">${content[page]}</main><footer><div class="footer-inner"><span>© 2026 Kaidi Xu</span><span>${themes[theme].footer}</span></div></footer>`);

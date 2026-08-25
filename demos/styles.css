@@ -19,28 +19,6 @@ a { color: inherit; }
 button, a { -webkit-tap-highlight-color: transparent; }
 img { display: block; max-width: 100%; }
 
-.concept-switcher {
-  position: fixed;
-  z-index: 20;
-  right: 18px;
-  bottom: 18px;
-  display: flex;
-  gap: 4px;
-  padding: 4px;
-  border: 1px solid #d0d0d0;
-  border-radius: 6px;
-  background: rgba(255, 255, 255, .96);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, .12);
-}
-.concept-switcher a {
-  padding: 8px 10px;
-  border-radius: 3px;
-  color: #363636;
-  font-size: 12px;
-  text-decoration: none;
-}
-.concept-switcher a[aria-current="page"] { background: #171717; color: #fff; }
-
 .site-header { position: sticky; z-index: 10; top: 0; background: rgba(255,255,255,.96); }
 .header-inner, main, .footer-inner { width: min(980px, calc(100% - 48px)); margin: 0 auto; }
 .header-inner { display: flex; min-height: 66px; align-items: stretch; justify-content: space-between; gap: 28px; }
@@ -263,8 +241,12 @@ footer { border-top: 1px solid var(--line); }
   .lab .research-item, .lab .research-item + .research-item { padding: 16px 0; }
   .lower-grid, .recruiting { gap: 48px; }
   .biography { grid-template-columns: 1fr; gap: 6px; }
-  .concept-switcher { right: 10px; bottom: 10px; max-width: calc(100% - 20px); overflow-x: auto; }
   .footer-inner { flex-direction: column; }
+
+  .editorial .tabs { justify-content: space-between; overflow: visible; padding-right: 8px; padding-left: 8px; }
+  .editorial .tabs a { flex: 0 0 auto; min-height: 52px; padding-right: 6px; padding-left: 6px; font-size: 14px; }
+  .editorial .hero { gap: 32px; padding: 42px 0 48px; }
+  .editorial .portrait-wrap { width: min(68vw, 240px); }
 }
 
 @media (prefers-reduced-motion: reduce) {
