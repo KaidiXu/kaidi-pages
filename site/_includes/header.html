@@ -1,14 +1,12 @@
 {% assign theme_data = site.data.themes[page.theme] %}
-{% capture theme_root %}/{{ page.theme }}/{% endcapture %}
 <header class="site-header">
   <div class="header-inner">
-    <a class="wordmark" href="{{ theme_root | append: 'index.html' | relative_url }}">{{ theme_data.label }}</a>
+    <a class="wordmark" href="{{ '/index.html' | relative_url }}">{{ theme_data.label }}</a>
     <nav class="tabs" aria-label="Primary navigation">
       {% for item in site.data.navigation %}
-        {% assign item_path = theme_root | append: item.file %}
+        {% assign item_path = '/' | append: item.file %}
         <a href="{{ item_path | relative_url }}"{% if item.id == page.page_key %} aria-current="page"{% endif %}>{{ item.label }}</a>
       {% endfor %}
     </nav>
   </div>
 </header>
-
