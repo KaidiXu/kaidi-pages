@@ -186,21 +186,12 @@ footer { border-top: 1px solid var(--line); }
 .institutional .research-item b { font-family: Arial, Helvetica, sans-serif; font-size: 17px; font-weight: 700; }
 .institutional .section-label { color: var(--accent-2); }
 
-.chooser { min-height: 100vh; padding: 60px 24px; background: #f2f3f3; }
-.chooser-inner { width: min(1080px, 100%); margin: 0 auto; }
-.chooser h1 { max-width: 760px; font-size: clamp(46px, 7vw, 78px); }
-.chooser p { max-width: 690px; color: #555; font-size: 18px; line-height: 1.6; }
-.concept-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 52px; }
-.concept-card { display: block; min-height: 280px; padding: 26px; border: 1px solid #cfd1d1; border-radius: 6px; background: #fff; text-decoration: none; transition: transform .18s ease, border-color .18s ease; }
-.concept-card:hover { transform: translateY(-3px); border-color: #171717; }
-.concept-card small { color: #777; font-size: 11px; font-weight: 800; text-transform: uppercase; }
-.concept-card h2 { margin: 62px 0 16px; font-size: 26px; }
-.concept-card p { margin: 0; font-size: 14px; }
-.concept-card:nth-child(1) { border-top: 6px solid #8e1b34; }
-.concept-card:nth-child(1) h2 { font-family: var(--serif); font-weight: 500; }
-.concept-card:nth-child(2) { border-top: 6px solid #1456d9; }
-.concept-card:nth-child(2) h2 { font-family: "Courier New", monospace; }
-.concept-card:nth-child(3) { border-top: 6px solid #71152f; }
+.chooser { min-height: 100vh; padding: 72px 24px; background: #fff; }
+.chooser-inner { width: min(620px, 100%); margin: 0 auto; }
+.chooser h1 { font-size: 30px; line-height: 1.25; }
+.preview-links { margin-top: 38px; border-top: 1px solid var(--line); }
+.preview-links a { display: block; padding: 16px 0; border-bottom: 1px solid var(--line); color: var(--ink); font-family: var(--serif); font-size: 18px; text-underline-offset: 4px; }
+.preview-links a:hover { color: var(--accent); }
 
 @media (max-width: 850px) {
   .header-inner { width: 100%; min-height: 0; flex-direction: column; gap: 0; }
@@ -213,7 +204,7 @@ footer { border-top: 1px solid var(--line); }
   h1 { font-size: clamp(38px, 11vw, 48px); }
   .lead, .lab .lead { font-size: 16px; }
   .portrait-wrap { width: min(100%, 430px); justify-self: center; }
-  .research-grid, .lower-grid, .recruiting, .concept-grid { grid-template-columns: 1fr; }
+  .research-grid, .lower-grid, .recruiting { grid-template-columns: 1fr; }
   .page-intro { grid-template-columns: 1fr; gap: 30px; padding: 48px 0 40px; }
   .content-header { padding: 36px 0 22px; }
   .content-header h1 { font-size: 30px; }
@@ -234,5 +225,4 @@ footer { border-top: 1px solid var(--line); }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .concept-card { transition: none; }
 }
