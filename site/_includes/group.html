@@ -8,7 +8,7 @@
           <img class="member-photo" src="{{ '/' | append: member.photo | relative_url }}" alt="Demo portrait of {{ member.name }}">
           <div>
             <h3><a href="{{ member.homepage }}">{{ member.name }}</a></h3>
-            <p class="member-meta">{{ member.role }} · Joined {{ member.joined }}</p>
+            <p class="member-meta">{{ member.role }} · {% if member.graduated %}{{ member.joined }}–{{ member.graduated }}{% else %}Joined {{ member.joined }}{% endif %}</p>
             <p>{{ member.interests }}</p>
             <a class="member-link" href="{{ member.homepage }}">Personal homepage ↗</a>
           </div>

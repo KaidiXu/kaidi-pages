@@ -1,11 +1,12 @@
 <header class="content-header"><h1>News</h1></header>
 <section class="section news-archive">
-  {% assign news_years = site.data.news | group_by_exp: "item", "item.date | slice: 0, 4" %}
+  {% assign month_names = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec" | split: "," %}
+  {% assign news_years = site.data.news | group_by: "year" %}
   {% for year in news_years %}
     <div class="publication-year">
       <h2>{{ year.name }}</h2>
       <ul class="news-list">
-        {% for item in year.items %}<li><time datetime="{{ item.date }}">{{ item.month }}</time><span class="news-copy">{{ item.text }}{% if item.links %}<span class="news-links">{% for link in item.links %}{% assign first_character = link.url | slice: 0 %}<a href="{% if first_character == '/' %}{{ link.url | relative_url }}{% else %}{{ link.url }}{% endif %}">{{ link.label }} ↗</a>{% endfor %}</span>{% endif %}</span></li>{% endfor %}
+        {% for item in year.items %}{% assign month_index = item.month | minus: 1 %}<li><time>{{ month_names[month_index] }}</time><span class="news-copy">{{ item.text }}{% if item.links %}<span class="news-links">{% for link in item.links %}{% assign first_character = link.url | slice: 0 %}<a href="{% if first_character == '/' %}{{ link.url | relative_url }}{% else %}{{ link.url }}{% endif %}">{{ link.label }} ↗</a>{% endfor %}</span>{% endif %}</span></li>{% endfor %}
       </ul>
     </div>
   {% endfor %}

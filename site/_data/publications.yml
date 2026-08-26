@@ -3,8 +3,7 @@
     Xu
   venue: BMVC
   year: 2023
-  month: November
-  month_number: '11'
+  month: 11
   selected: true
   preprint: false
   links:
@@ -14,8 +13,7 @@
   authors: Jinhao Duan, Quanfu Fan, Hao Cheng, Xiaoshuang Shi, Kaidi Xu
   venue: IJCAI
   year: 2023
-  month: August
-  month_number: '08'
+  month: 8
   selected: true
   preprint: false
   links:
@@ -27,8 +25,7 @@
     Zhao, Zidong Du, Qi Guo, Yanzhi Wang, Xishan Zhang, Tianshi Chen
   venue: TCAD
   year: 2023
-  month: August
-  month_number: '08'
+  month: 8
   selected: true
   preprint: false
   links:
@@ -38,8 +35,7 @@
   authors: Jinhao Duan, Fei Kong, Shiqi Wang, Xiaoshuang Shi, Kaidi Xu
   venue: ICML
   year: 2023
-  month: July
-  month_number: '07'
+  month: 7
   selected: true
   preprint: false
   links:
@@ -51,8 +47,7 @@
     Xu, Bhavya Kailkhura, Kaidi Xu
   venue: Preprint
   year: 2023
-  month: July
-  month_number: '07'
+  month: 7
   selected: false
   preprint: true
   links:
@@ -64,8 +59,7 @@
     Shi, Kaidi Xu
   venue: Preprint
   year: 2023
-  month: May
-  month_number: '05'
+  month: 5
   selected: false
   preprint: true
   links:
@@ -76,8 +70,7 @@
     Hsieh, J Zico Kolter
   venue: NeurIPS
   year: 2022
-  month: December
-  month_number: '12'
+  month: 12
   selected: true
   preprint: false
   links:
@@ -87,8 +80,7 @@
   authors: Ling Liang, Kaidi Xu, Xing Hu, Lei Deng, Yuan Xie
   venue: NeurIPS
   year: 2022
-  month: December
-  month_number: '12'
+  month: 12
   selected: true
   preprint: false
   links:
@@ -99,8 +91,7 @@
     Zico Kolter
   venue: ICML
   year: 2022
-  month: July
-  month_number: '07'
+  month: 7
   selected: true
   preprint: false
   links:
@@ -112,8 +103,7 @@
     J Zico Kolter
   venue: NeurIPS
   year: 2021
-  month: December
-  month_number: '12'
+  month: 12
   selected: true
   preprint: false
   links:
@@ -125,8 +115,7 @@
     Qi Guo, Yanzhi Wang, Yunji Chen
   venue: NeurIPS
   year: 2021
-  month: December
-  month_number: '12'
+  month: 12
   selected: true
   preprint: false
   links:
@@ -138,8 +127,7 @@
     Hsieh
   venue: ICLR
   year: 2021
-  month: May
-  month_number: '05'
+  month: 5
   selected: true
   preprint: false
   links:
@@ -150,8 +138,7 @@
     Meng Wang
   venue: ICLR
   year: 2021
-  month: May
-  month_number: '05'
+  month: 5
   selected: true
   preprint: false
   links:
@@ -163,8 +150,7 @@
     Lu, Zhenhua Guo
   venue: TIP
   year: 2021
-  month: January
-  month_number: '01'
+  month: 1
   selected: true
   preprint: false
   links:
@@ -175,8 +161,7 @@
     Huang, Bhavya Kailkhura, Xue Lin, Cho-Jui Hsieh
   venue: NeurIPS
   year: 2020
-  month: December
-  month_number: '12'
+  month: 12
   selected: true
   preprint: false
   links:
@@ -187,8 +172,7 @@
   authors: Pranay Sharma, Kaidi Xu, Sijia Liu, Pin-Yu Chen, Xue Lin, Pramod K. Varshney.
   venue: Preprint
   year: 2020
-  month: December
-  month_number: '12'
+  month: 12
   selected: false
   preprint: true
   links:
@@ -199,8 +183,7 @@
     Pin-Yu Chen, Yanzhi Wang, Xue Lin
   venue: ECCV · Spotlight
   year: 2020
-  month: August
-  month_number: '08'
+  month: 8
   selected: true
   preprint: false
   links:
@@ -212,8 +195,7 @@
     Al-Dujaili, Minyi Hong, Una-May O’Reilly
   venue: ICML
   year: 2020
-  month: July
-  month_number: '07'
+  month: 7
   selected: true
   preprint: false
   links:
@@ -224,8 +206,7 @@
     Zhou, Chenglong Bao, Kaisheng Ma
   venue: CVPR
   year: 2020
-  month: June
-  month_number: '06'
+  month: 6
   selected: true
   preprint: false
   links:
@@ -237,8 +218,7 @@
     Xue Lin
   venue: ICASSP
   year: 2020
-  month: May
-  month_number: '05'
+  month: 5
   selected: true
   preprint: false
   links:
@@ -249,8 +229,7 @@
     David Cox
   venue: NeurIPS
   year: 2019
-  month: December
-  month_number: '12'
+  month: 12
   selected: true
   preprint: false
   links:
@@ -261,8 +240,7 @@
     Ma, Yanzhi Wang, Xue Lin
   venue: ICCV
   year: 2019
-  month: October
-  month_number: '10'
+  month: 10
   selected: true
   preprint: false
   links:
@@ -274,8 +252,7 @@
     Xue Lin
   venue: ICCV
   year: 2019
-  month: October
-  month_number: '10'
+  month: 10
   selected: true
   preprint: false
   links:
@@ -286,8 +263,7 @@
     Xue Lin
   venue: IJCAI
   year: 2019
-  month: August
-  month_number: '08'
+  month: 8
   selected: true
   preprint: false
   links:
@@ -299,8 +275,7 @@
     Yanzhi Wang, Xue Lin
   venue: ICLR
   year: 2019
-  month: May
-  month_number: '05'
+  month: 5
   selected: true
   preprint: false
   links:
@@ -311,8 +286,7 @@
     Gan, Xue Lin
   venue: Preprint
   year: 2019
-  month: April
-  month_number: '04'
+  month: 4
   selected: false
   preprint: true
   links:
@@ -323,8 +297,7 @@
   authors: Caiwen Ding, Shuo Wang, Ning Liu, Kaidi Xu, Yanzhi Wang, Yun Liang
   venue: FPGA
   year: 2019
-  month: February
-  month_number: '02'
+  month: 2
   selected: true
   preprint: false
   links:
@@ -335,8 +308,7 @@
   authors: Pu Zhao, Kaidi Xu, Sijia Liu, Yanzhi Wang, Xue Lin
   venue: ASP-DAC
   year: 2019
-  month: January
-  month_number: '01'
+  month: 1
   selected: true
   preprint: false
   links:
@@ -346,8 +318,7 @@
   authors: Pu Zhao, Kaidi Xu, Tianyun Zhang, Makan Fardad, Yanzhi Wang, Xue Lin
   venue: GlobalSIP
   year: 2018
-  month: November
-  month_number: '11'
+  month: 11
   selected: true
   preprint: false
   links:
@@ -357,8 +328,7 @@
   authors: Xiaoshuang Shi, Fuyong Xing, Kaidi Xu, Yuanpu Xie, Hai Su, Lin Yang
   venue: MIA
   year: 2017
-  month: December
-  month_number: '12'
+  month: 12
   selected: true
   preprint: false
   links:
@@ -368,8 +338,7 @@
   authors: Xiaoshuang Shi, Fuyong Xing, Kaidi Xu, Manish Sapkota, Lin Yang
   venue: AAAI
   year: 2017
-  month: February
-  month_number: '02'
+  month: 2
   selected: true
   preprint: false
   links:

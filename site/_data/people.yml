@@ -24,8 +24,9 @@ sections:
   - title: Alumni
     members:
       - name: Michael Lee
-        role: Ph.D. 2025
+        role: Ph.D.
         joined: 2021
+        graduated: 2025
         interests: Postdoctoral Researcher, Example University.
         photo: assets/demo-michael-lee.png
         homepage: "#"

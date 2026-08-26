@@ -4,14 +4,16 @@
 </header>
 <section class="section publication-section">
   <div class="filter-tabs" aria-label="Publication filters"><button type="button" data-publication-filter="selected" aria-pressed="true">Selected</button><button type="button" data-publication-filter="all" aria-pressed="false">All publications</button><button type="button" data-publication-filter="preprints" aria-pressed="false">Preprints</button></div>
+  {% assign month_names = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
   {% assign publication_years = site.data.publications | group_by: "year" %}
   {% for year in publication_years %}
     <div class="publication-year" data-publication-year>
       <h2>{{ year.name }}</h2>
       <div>
         {% for paper in year.items %}
+          {% assign month_index = paper.month | minus: 1 %}
           <article class="paper" data-selected="{{ paper.selected }}" data-preprint="{{ paper.preprint }}">
-            <time class="paper-month" datetime="{{ paper.year }}-{{ paper.month_number }}">{{ paper.month }}</time>
+            <time class="paper-month">{{ month_names[month_index] }}</time>
             <div class="paper-body">
               <h3>{{ paper.title }}</h3>
               <p class="paper-authors">{{ paper.authors }}</p>
