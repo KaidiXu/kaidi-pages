@@ -23,13 +23,13 @@ sections:
         homepage: "#"
   - title: Alumni
     members:
-      - name: Michael Lee
+      - name: Jinhao Duan
         role: Ph.D.
         joined: 2021
         graduated: 2025
-        interests: Postdoctoral Researcher, Example University.
-        photo: assets/demo-michael-lee.png
-        homepage: "#"
+        current_position: Postdoctoral Researcher, UNC-Chapel Hill
+        photo: assets/jinhao-duan-square.jpg
+        homepage: https://jinhaoduan.github.io/
 
 recruiting:
   title: Join the group
