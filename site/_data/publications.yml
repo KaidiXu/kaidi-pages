@@ -1,49 +1,377 @@
+- title: Semantic Adversarial Attacks via Diffusion Models
+  authors: Chenan Wang, Jinhao Duan, Chaowei Xiao, Edward Kim, Matthew Stamm, Kaidi
+    Xu
+  venue: BMVC
+  year: 2023
+  month: November
+  month_number: '11'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: https://arxiv.org/abs/2309.07398
+- title: Improve Video Representation with Temporal Adversarial Augmentation
+  authors: Jinhao Duan, Quanfu Fan, Hao Cheng, Xiaoshuang Shi, Kaidi Xu
+  venue: IJCAI
+  year: 2023
+  month: August
+  month_number: '08'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: https://arxiv.org/abs/2304.14601
+- title: Real-Time Robust Video Object Detection System Against Physical-World Adversarial
+    Attacks
+  authors: Husheng Han, Xing Hu, Yifan Hao, Kaidi Xu, Pucheng Dang, Ying Wang, Yongwei
+    Zhao, Zidong Du, Qi Guo, Yanzhi Wang, Xishan Zhang, Tianshi Chen
+  venue: TCAD
+  year: 2023
+  month: August
+  month_number: '08'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: https://ieeexplore.ieee.org/abstract/document/10220201/
 - title: Are diffusion models vulnerable to membership inference attacks?
   authors: Jinhao Duan, Fei Kong, Shiqi Wang, Xiaoshuang Shi, Kaidi Xu
   venue: ICML
   year: 2023
   month: July
-  month_number: "07"
+  month_number: '07'
   selected: true
   preprint: false
   links:
-    - label: Paper
-      url: "#"
-    - label: Code
-      url: "#"
-- title: Semantic adversarial attacks via diffusion models
-  authors: Chenan Wang, Jinhao Duan, Chaowei Xiao, Edward Kim, Matthew Stamm, Kaidi Xu
-  venue: BMVC
+  - label: Paper
+    url: https://arxiv.org/abs/2302.01316
+- title: 'Shifting attention to relevance: Towards the uncertainty estimation of large
+    language models'
+  authors: Jinhao Duan, Hao Cheng, Shiqi Wang, Chenan Wang, Alex Zavalny, Renjing
+    Xu, Bhavya Kailkhura, Kaidi Xu
+  venue: Preprint
   year: 2023
-  month: November
-  month_number: "11"
-  selected: true
-  preprint: false
+  month: July
+  month_number: '07'
+  selected: false
+  preprint: true
   links:
-    - label: Paper
-      url: "#"
+  - label: Paper
+    url: https://arxiv.org/pdf/2307.01379
+- title: An Efficient Membership Inference Attack for the Diffusion Model by Proximal
+    Initialization
+  authors: Fei Kong, Jinhao Duan, RuiPeng Ma, Hengtao Shen, Xiaofeng Zhu, Xiaoshuang
+    Shi, Kaidi Xu
+  venue: Preprint
+  year: 2023
+  month: May
+  month_number: '05'
+  selected: false
+  preprint: true
+  links:
+  - label: Paper
+    url: https://arxiv.org/pdf/2305.18355
 - title: General cutting planes for bound-propagation-based neural network verification
-  authors: Huan Zhang, Shiqi Wang, Kaidi Xu, et al.
+  authors: Huan Zhang*, Shiqi Wang*, Kaidi Xu*, Linyi Li, Bo Li, Suman Jana, Cho-Jui
+    Hsieh, J Zico Kolter
   venue: NeurIPS
   year: 2022
   month: December
-  month_number: "12"
+  month_number: '12'
   selected: true
   preprint: false
   links:
-    - label: Paper
-      url: "#"
-    - label: Code
-      url: "#"
-- title: A branch and bound framework for stronger adversarial attacks of ReLU networks
-  authors: Huan Zhang, Shiqi Wang, Kaidi Xu, et al.
+  - label: Paper
+    url: https://proceedings.neurips.cc/paper_files/paper/2022/hash/0b06c8673ebb453e5e468f7743d8f54e-Abstract-Conference.html
+- title: Toward robust spiking neural network against adversarial perturbation
+  authors: Ling Liang, Kaidi Xu, Xing Hu, Lei Deng, Yuan Xie
+  venue: NeurIPS
+  year: 2022
+  month: December
+  month_number: '12'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: https://proceedings.neurips.cc/paper_files/paper/2022/file/42bc612558891859b1b8717051f2c7b0-Paper-Conference.pdf
+- title: A Branch and Bound Framework for Stronger Adversarial Attacks of ReLU Networks
+  authors: Huan Zhang, Shiqi Wang, Kaidi Xu, Yihan Wang, Suman Jana, Cho-Jui Hsieh,
+    Zico Kolter
   venue: ICML
   year: 2022
   month: July
-  month_number: "07"
+  month_number: '07'
   selected: true
   preprint: false
   links:
-    - label: Paper
-      url: "#"
-
+  - label: Paper
+    url: https://proceedings.mlr.press/v162/zhang22ae/zhang22ae.pdf
+- title: 'Beta-CROWN: Efficient Bound Propagation with Per-neuron Split Constraints
+    for Neural Network Robustness Verification'
+  authors: Shiqi Wang*, Huan Zhang*, Kaidi Xu*, Xue Lin, Suman Jana, Cho-Jui Hsieh,
+    J Zico Kolter
+  venue: NeurIPS
+  year: 2021
+  month: December
+  month_number: '12'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: https://arxiv.org/pdf/2103.06624.pdf
+- title: 'ScaleCert: Scalable Certified Defense against Adversarial Patches with Sparse
+    Superficial Layers'
+  authors: Husheng Han*, Kaidi Xu*, Xing Hu, Xiaobing Chen, Ling Liang, Zidong Du,
+    Qi Guo, Yanzhi Wang, Yunji Chen
+  venue: NeurIPS
+  year: 2021
+  month: December
+  month_number: '12'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: https://arxiv.org/pdf/2110.14120.pdf
+- title: 'Fast and Complete: Enabling Complete Neural Network Verification with Rapid
+    and Massively Parallel Incomplete Verifiers'
+  authors: Kaidi Xu*, Huan Zhang*, Shiqi Wang, Yihan Wang, Suman Jana, Xue Lin, Cho-Jui
+    Hsieh
+  venue: ICLR
+  year: 2021
+  month: May
+  month_number: '05'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: https://openreview.net/pdf?id=nVZtXBI6LNn
+- title: On Fast Adversarial Robustness Adaptation in Model-Agnostic Meta-Learning
+  authors: Ren Wang, Kaidi Xu, Sijia Liu, Pin-Yu Chen, Tsui-Wei Weng, Chuang Gan,
+    Meng Wang
+  venue: ICLR
+  year: 2021
+  month: May
+  month_number: '05'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: https://openreview.net/pdf?id=o81ZyBCojoA
+- title: Loss-based Attention for Interpreting Image-level Prediction of Convolutional
+    Neural Networks
+  authors: Xiaoshuang Shi, Fuyong Xing, Kaidi Xu, Pingjun Chen, Yun Liang, Zhiyong
+    Lu, Zhenhua Guo
+  venue: TIP
+  year: 2021
+  month: January
+  month_number: '01'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: https://ieeexplore.ieee.org/document/9311772
+- title: Automatic Perturbation Analysis for Scalable Certified Robustness and Beyond
+  authors: Kaidi Xu*, Zhouxing Shi*, Huan Zhang*, Yihan Wang, Kai-Wei Chang, Minlie
+    Huang, Bhavya Kailkhura, Xue Lin, Cho-Jui Hsieh
+  venue: NeurIPS
+  year: 2020
+  month: December
+  month_number: '12'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: https://papers.nips.cc/paper/2020/file/0cbc5671ae26f67871cb914d81ef8fc1-Paper.pdf
+- title: 'Zeroth-Order Hybrid Gradient Descent: Towards A Principled Black-Box Optimization
+    Framework'
+  authors: Pranay Sharma, Kaidi Xu, Sijia Liu, Pin-Yu Chen, Xue Lin, Pramod K. Varshney.
+  venue: Preprint
+  year: 2020
+  month: December
+  month_number: '12'
+  selected: false
+  preprint: true
+  links:
+  - label: Paper
+    url: https://arxiv.org/abs/2012.11518
+- title: Adversarial T-shirt! Evading Person Detectors in A Physical World
+  authors: Kaidi Xu, Gaoyuan Zhang, Sijia Liu, Quanfu Fan, Mengshu Sun, Hongge Chen,
+    Pin-Yu Chen, Yanzhi Wang, Xue Lin
+  venue: ECCV · Spotlight
+  year: 2020
+  month: August
+  month_number: '08'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: https://arxiv.org/pdf/1910.11099.pdf
+- title: 'Min-Max Optimization without Gradients: Convergence and Applications to
+    Black-Box Evasion and Poisoning Attacks'
+  authors: Sijia Liu*, Songtao Lu*, Xiangyi Chen*, Yao Feng*, Kaidi Xu*, Abdullah
+    Al-Dujaili, Minyi Hong, Una-May O’Reilly
+  venue: ICML
+  year: 2020
+  month: July
+  month_number: '07'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: https://arxiv.org/pdf/1909.13806.pdf
+- title: 'Light-weight Calibrator: a Separable Component for Unsupervised Domain Adaptation'
+  authors: Shaokai Ye, Kailu Wu, Mu Zhou, Yunfei Yang, Kaidi Xu, Jiebo Song, Aojun
+    Zhou, Chenglong Bao, Kaisheng Ma
+  venue: CVPR
+  year: 2020
+  month: June
+  month_number: '06'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: http://openaccess.thecvf.com/content_CVPR_2020/papers/Ye_Light-weight_Calibrator_A_Separable_Component_for_Unsupervised_Domain_Adaptation_CVPR_2020_paper.pdf
+- title: Towards an Efficient and General Framework of Robust Training for Graph Neural
+    Networks
+  authors: Kaidi Xu, Sijia Liu, Pin-Yu Chen, Mengshu Sun, Caiwen Ding, Bhavya Kailkhura,
+    Xue Lin
+  venue: ICASSP
+  year: 2020
+  month: May
+  month_number: '05'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: https://arxiv.org/pdf/2002.10947
+- title: 'ZO-AdaMM: Zeroth-Order Adaptive Momentum Method for Black-Box Optimization'
+  authors: Xiangyi Chen*, Sijia Liu*, Kaidi Xu*, Xingguo Li, Xue Lin, Mingyi Hong,
+    David Cox
+  venue: NeurIPS
+  year: 2019
+  month: December
+  month_number: '12'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: https://papers.nips.cc/paper/8941-zo-adamm-zeroth-order-adaptive-momentum-method-for-black-box-optimization.pdf
+- title: Adversarial Robustness vs Model Compression, or Both?
+  authors: Kaidi Xu*, Shaokai Ye*, Sijia Liu, Jan-Henrik Lambrechts, Huan Zhang, Kaisheng
+    Ma, Yanzhi Wang, Xue Lin
+  venue: ICCV
+  year: 2019
+  month: October
+  month_number: '10'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: http://openaccess.thecvf.com/content_ICCV_2019/papers/Ye_Adversarial_Robustness_vs._Model_Compression_or_Both_ICCV_2019_paper.pdf
+- title: On the Design of Black-box Adversarial Examples by Leveraging Gradient-free
+    Optimization and Operator Splitting Method
+  authors: Pu Zhao, Sijia Liu, Pin-Yu Chen, Nghia Hoang, Kaidi Xu, Bhavya Kailkhura,
+    Xue Lin
+  venue: ICCV
+  year: 2019
+  month: October
+  month_number: '10'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: http://openaccess.thecvf.com/content_ICCV_2019/papers/Zhao_On_the_Design_of_Black-Box_Adversarial_Examples_by_Leveraging_Gradient-Free_ICCV_2019_paper.pdf
+- title: 'Topology Attack and Defense for Graph Neural Networks: An Optimization Perspective'
+  authors: Kaidi Xu, Hongge Chen, Sijia Liu, Pin-Yu Chen, Tsui-Wei Weng, Mingyi Hong,
+    Xue Lin
+  venue: IJCAI
+  year: 2019
+  month: August
+  month_number: '08'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: https://www.ijcai.org/Proceedings/2019/0550.pdf
+- title: 'Structured Adversarial Attack: Towards General Implementation and Better
+    Interpretability'
+  authors: Kaidi Xu, Sijia Liu, Pu Zhao, Pin-Yu Chen, Huan Zhang, Deniz Erdogmus,
+    Yanzhi Wang, Xue Lin
+  venue: ICLR
+  year: 2019
+  month: May
+  month_number: '05'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: https://openreview.net/forum?id=BkgzniCqY7
+- title: Interpreting Adversarial Examples by Activation Promotion and Suppression
+  authors: Kaidi Xu, Sijia Liu, Gaoyuan Zhang, Mengshu Sun, Pu Zhao, Quanfu Fan, Chuang
+    Gan, Xue Lin
+  venue: Preprint
+  year: 2019
+  month: April
+  month_number: '04'
+  selected: false
+  preprint: true
+  links:
+  - label: Paper
+    url: https://arxiv.org/pdf/1904.02057.pdf
+- title: 'REQ-YOLO: A Resource-Aware, Efficient Quantization Framework for Object
+    Detection on FPGAs'
+  authors: Caiwen Ding, Shuo Wang, Ning Liu, Kaidi Xu, Yanzhi Wang, Yun Liang
+  venue: FPGA
+  year: 2019
+  month: February
+  month_number: '02'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: https://arxiv.org/pdf/1909.13396
+- title: 'ADMM Attack: An Enhanced Adversarial Attack for Deep Neural Networks with
+    Undetectable Distortions'
+  authors: Pu Zhao, Kaidi Xu, Sijia Liu, Yanzhi Wang, Xue Lin
+  venue: ASP-DAC
+  year: 2019
+  month: January
+  month_number: '01'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: https://dl.acm.org/doi/abs/10.1145/3287624.3288750
+- title: Reinforced Adversarial Attacks on Deep Neural Networks Using ADMM
+  authors: Pu Zhao, Kaidi Xu, Tianyun Zhang, Makan Fardad, Yanzhi Wang, Xue Lin
+  venue: GlobalSIP
+  year: 2018
+  month: November
+  month_number: '11'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: https://ieeexplore.ieee.org/abstract/document/8646651
+- title: Supervised Graph Hashing for Histopathology Image Retrieval and Classification
+  authors: Xiaoshuang Shi, Fuyong Xing, Kaidi Xu, Yuanpu Xie, Hai Su, Lin Yang
+  venue: MIA
+  year: 2017
+  month: December
+  month_number: '12'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: https://www.sciencedirect.com/science/article/abs/pii/S1361841517301238
+- title: Asymmetric Discrete Graph Hashing
+  authors: Xiaoshuang Shi, Fuyong Xing, Kaidi Xu, Manish Sapkota, Lin Yang
+  venue: AAAI
+  year: 2017
+  month: February
+  month_number: '02'
+  selected: true
+  preprint: false
+  links:
+  - label: Paper
+    url: https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14467/14442

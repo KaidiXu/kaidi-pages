@@ -54,6 +54,8 @@ h1 { margin: 0; font-family: var(--serif); font-size: clamp(42px, 5vw, 54px); fo
 .news-list { margin: 0; padding: 0; list-style: none; }
 .news-list li { display: grid; grid-template-columns: 82px 1fr; gap: 18px; padding: 15px 0; border-top: 1px solid var(--line); line-height: 1.45; }
 .news-list time { color: var(--accent); font-size: 12px; font-weight: 800; }
+.news-links { display: inline-flex; flex-wrap: wrap; gap: 5px 12px; margin-left: 10px; }
+.news-links a { color: var(--muted); font-size: 12px; font-weight: 650; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
 .recruiting { display: grid; grid-template-columns: 1fr 2fr; gap: 72px; align-items: start; }
 .recruiting h2 { margin: 0; font-family: var(--serif); font-size: 27px; font-weight: 500; }
 .recruiting p { margin: 0; color: #3d3d3d; font-size: 16px; line-height: 1.65; }
@@ -76,6 +78,7 @@ footer { border-top: 1px solid var(--line); }
 .filter-tabs { display: flex; gap: 4px; margin-bottom: 26px; overflow-x: auto; }
 .filter-tabs button { padding: 8px 2px; margin-right: 18px; border: 0; border-bottom: 2px solid transparent; border-radius: 0; background: transparent; color: var(--muted); font: inherit; font-size: 12px; font-weight: 700; }
 .filter-tabs button[aria-pressed="true"] { border-bottom-color: var(--accent); background: transparent; color: var(--ink); }
+.paper[hidden], .publication-year[hidden] { display: none; }
 .publication-year { display: grid; grid-template-columns: 90px 1fr; gap: 28px; padding: 26px 0 42px; border-top: 1px solid var(--line); }
 .publication-year h2 { margin: 0; color: var(--accent); font-family: var(--serif); font-size: 28px; font-weight: 500; }
 .paper { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 18px; padding: 0 0 25px; }

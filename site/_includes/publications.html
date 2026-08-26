@@ -2,15 +2,15 @@
   <h1>Publications</h1>
   <a href="https://scholar.google.com/citations?hl=en&amp;user=lYK0wlsAAAAJ">Google Scholar ↗</a>
 </header>
-<section class="section">
-  <div class="filter-tabs" aria-label="Publication filters"><button aria-pressed="true">Selected</button><button aria-pressed="false">All publications</button><button aria-pressed="false">Preprints</button></div>
+<section class="section publication-section">
+  <div class="filter-tabs" aria-label="Publication filters"><button type="button" data-publication-filter="selected" aria-pressed="true">Selected</button><button type="button" data-publication-filter="all" aria-pressed="false">All publications</button><button type="button" data-publication-filter="preprints" aria-pressed="false">Preprints</button></div>
   {% assign publication_years = site.data.publications | group_by: "year" %}
   {% for year in publication_years %}
-    <div class="publication-year">
+    <div class="publication-year" data-publication-year>
       <h2>{{ year.name }}</h2>
       <div>
         {% for paper in year.items %}
-          <article class="paper">
+          <article class="paper" data-selected="{{ paper.selected }}" data-preprint="{{ paper.preprint }}">
             <time class="paper-month" datetime="{{ paper.year }}-{{ paper.month_number }}">{{ paper.month }}</time>
             <div class="paper-body">
               <h3>{{ paper.title }}</h3>
@@ -26,4 +26,3 @@
     </div>
   {% endfor %}
 </section>
-

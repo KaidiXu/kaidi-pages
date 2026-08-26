@@ -1,57 +1,274 @@
-- date: "2026-05"
+- date: 2026-05
   month: May
   display_date: 05 / 2026
   text: Two papers were accepted (2× ICML)!
-- date: "2026-04"
+- date: 2026-04
   month: Apr
   display_date: 04 / 2026
   text: Three papers were accepted (1× ACL, 1× AIED, 1× ICDM)!
-- date: "2026-03"
+- date: 2026-03
   month: Mar
   display_date: 03 / 2026
   text: I am serving as an Area Chair for NeurIPS and COLM 2026.
-- date: "2026-01"
+- date: 2026-01
   month: Jan
   display_date: 01 / 2026
   text: Five papers were accepted (3× ICLR, 1× EACL, 1× CPAL)!
-- date: "2025-11"
+- date: 2025-11
   month: Nov
   display_date: 11 / 2025
   text: Two papers were accepted to AAAI 2026 (1 oral, 1 poster)!
-- date: "2025-10"
+- date: 2025-10
   month: Oct
   display_date: 10 / 2025
   text: I am serving as an Area Chair for ARR OCT 2026!
-- date: "2025-08"
+- date: 2025-08
   month: Aug
-  display_date: 08 / 2025
+  display_date: '08 / 2025'
   text: I am serving as an Area Chair for ICLR 2026!
-- date: "2025-08"
+- date: 2025-08
   month: Aug
-  display_date: 08 / 2025
+  display_date: '08 / 2025'
   text: Four papers were accepted (1× ACM MM, 1× ICCV, 2× EMNLP).
-- date: "2025-05"
+- date: 2025-05
   month: May
   display_date: 05 / 2025
   text: Three papers were accepted (1× ICML, 2× ACL)!
-- date: "2025-03"
+- date: 2025-03
   month: Mar
   display_date: 03 / 2025
   text: I am serving as an Area Chair for NeurIPS 2025!
-- date: "2024-09"
+- date: 2025-02
+  month: Feb
+  display_date: 02 / 2025
+  text: Two papers were accepted (1× IEEE S&P 2025, 1× CVPR)!
+- date: 2025-01
+  month: Jan
+  display_date: 01 / 2025
+  text: Two papers were accepted (1× NAACL, 1× NAACL Findings)!
+- date: 2025-01
+  month: Jan
+  display_date: 01 / 2025
+  text: Received two Drexel internal grants (2× Carleone Faculty Award)!
+  links:
+  - label: Carleone Faculty Award
+    url: https://drexel.edu/engineering/news-events/news/archive/2025/February/faculty-awards-carleone-longsview-grimes/
+- date: 2024-11
+  month: Nov
+  display_date: 11 / 2024
+  text: We are organizing GenAI4Health@AAAI 2025 workshop in Philadelphia in March
+    2025 and are looking forward to seeing you!
+  links:
+  - label: GenAI4Health@AAAI 2025
+    url: https://sites.google.com/view/genai4health-aaai-2025/home
+- date: 2024-09
   month: Sep
-  display_date: 09 / 2024
-  text: Four papers were accepted (1× NDSS, 1× EMNLP, 2× NeurIPS)!
-- date: "2024-07"
+  display_date: '09 / 2024'
+  text: Four papers were accepted (1× NDSS, 1× EMNLP and 2× NeurIPS)!
+- date: 2024-07
   month: Jul
   display_date: 07 / 2024
-  text: Three papers were accepted (1× ECCV, 1× ACM MM, 1× RSS)!
-- date: "2024-05"
+  text: Three papers were accepted (1× ECCV, 1× ACM MM and 1× RSS)!
+- date: 2024-05
   month: May
   display_date: 05 / 2024
-  text: Received the Faculty Research Excellence Award from CCI at Drexel.
-- date: "2024-03"
+  text: Two papers were accepted by ICML 2024 and one paper was accepted by ACL 2024!
+- date: 2024-05
+  month: May
+  display_date: 05 / 2024
+  text: Glad to receive the Faculty Research Excellence Award from CCI@Drexel. Congrats
+    to my PhD student Jinhao, who received the Student Research Excellence Award!
+  links:
+  - label: Faculty Research Excellence Award
+    url: "/assets/cci_award-1913414777-e1736128986722.jpg"
+  - label: Jinhao
+    url: https://jinhaoduan.github.io/
+- date: 2024-03
   month: Mar
   display_date: 03 / 2024
-  text: Received an NSF grant on decision-embedded deep learning for transit systems.
-
+  text: Two papers were accepted by CVPR 2024, and one paper was accepted by NAACL
+    2024!
+- date: 2024-03
+  month: Mar
+  display_date: 03 / 2024
+  text: 'Received an NSF grant: "Decision-Embedded Deep Learning for Transit Systems".
+    Thank you, NSF!'
+- date: 2024-01
+  month: Jan
+  display_date: 01 / 2024
+  text: One paper was accepted by ICLR 2024, see you in Vienna!
+- date: 2023-12
+  month: Dec
+  display_date: 12 / 2023
+  text: Our team, alpha-beta-crown, won the International Verification of Neural Networks
+    Competition (VNN-COMP 2021 - 2023) three years in a row!
+  links:
+  - label: International Verification of Neural Networks Competition
+    url: https://sites.google.com/view/vnn2023
+- date: 2023-12
+  month: Dec
+  display_date: 12 / 2023
+  text: One paper was accepted by AAAI 2024!
+- date: 2023-09
+  month: Sep
+  display_date: '09 / 2023'
+  text: Two papers were accepted by BMVC 2023!
+- date: 2023-09
+  month: Sep
+  display_date: '09 / 2023'
+  text: 'Received an NSF grant: "Towards Verified Robustness and Safety in Power System-Informed
+    Neural Networks". Thank you, NSF!'
+- date: 2023-09
+  month: Sep
+  display_date: '09 / 2023'
+  text: 'Received an NSF grant: "Deep Learning Gibbs Free Energy Functions to Guide
+    Solid-state Material Synthesis". Thank you, NSF!'
+- date: 2023-07
+  month: Jul
+  display_date: 07 / 2023
+  text: One paper was accepted by ICCV 2023, see you in Paris!
+- date: 2023-05
+  month: May
+  display_date: 05 / 2023
+  text: Two papers were accepted by IJCAI 2023 and ICML 2023 respectively!
+- date: 2022-09
+  month: Sep
+  display_date: '09 / 2022'
+  text: Two papers were accepted by NeurIPS 2022!
+- date: 2022-09
+  month: Sep
+  display_date: '09 / 2022'
+  text: Congratulations again! Our team alpha-beta-crown won the International Verification
+    of Neural Networks Competition (VNN-COMP 2022) with the highest total score!
+- date: 2022-05
+  month: May
+  display_date: 05 / 2022
+  text: One paper was accepted by ICML 2022!
+- date: 2022-04
+  month: Apr
+  display_date: 04 / 2022
+  text: I'm a co-organizer of ICML 2022 Workshop on Formal Verification of Machine
+    Learning. Submit your paper by May 27, 2022 (see our Call for Papers!).
+  links:
+  - label: Workshop on Formal Verification of Machine Learning
+    url: https://ml-verification.com/
+  - label: Call for Papers
+    url: https://www.ml-verification.com/call-for-papers
+- date: 2022-02
+  month: Feb
+  display_date: 02 / 2022
+  text: 'I am one of the main speakers for AAAI 2022 Tutorial Formal Verification
+    of Deep Neural Networks: Theory and Practice [tutorial webpage]'
+  links:
+  - label: 'Formal Verification of Deep Neural Networks: Theory and Practice'
+    url: https://aaai.org/Conferences/AAAI-22/aaai22tutorials/#mq2
+  - label: tutorial webpage
+    url: https://neural-network-verification.com/
+- date: 2021-10
+  month: Oct
+  display_date: 10 / 2021
+  text: I was invited by Qi Alfred Chen to talk about my recent research works on
+    Formal Neural Network Verification at UC Irvine.
+  links:
+  - label: Qi Alfred Chen
+    url: https://www.ics.uci.edu/~alfchen/
+- date: 2021-09
+  month: Sep
+  display_date: '09 / 2021'
+  text: Two papers were accepted by NeurIPS 2021!
+- date: 2021-09
+  month: Sep
+  display_date: '09 / 2021'
+  text: Congratulations! Our team Alpha-beta-crown won the International Verification
+    of Neural Networks Competition (VNN-COMP 2021) with the highest total score. (official
+    website, certificate, source code and competition report)
+  links:
+  - label: official website
+    url: https://sites.google.com/view/vnn2021
+  - label: certificate
+    url: https://web.northeastern.edu/xuelin/wp-content/uploads/2021/08/vnncomp2021_certificate_%CE%B1-%CE%B2-crown.pdf
+  - label: source code
+    url: https://github.com/huanzhang12/alpha-beta-CROWN
+  - label: competition report
+    url: https://arxiv.org/pdf/2109.00498.pdf
+- date: 2021-03
+  month: Mar
+  display_date: 03 / 2021
+  text: I was invited by Visual Informatics Group @ University of Texas at Austin
+    to talk about my recent research works.
+  links:
+  - label: Visual Informatics Group @ University of Texas at Austin
+    url: https://vita-group.github.io/
+- date: 2021-03
+  month: Mar
+  display_date: 03 / 2021
+  text: I co-organized ATVA 2021 Workshop on Security and Reliability of Machine Learning
+    (SRML).
+  links:
+  - label: ATVA 2021 Workshop on Security and Reliability of Machine Learning (SRML)
+    url: https://sites.google.com/view/srml-atva2021
+- date: 2021-01
+  month: Jan
+  display_date: 01 / 2021
+  text: Two papers were accepted by ICLR 2021.
+- date: 2020-09
+  month: Sep
+  display_date: '09 / 2020'
+  text: One paper was accepted by NeurIPS 2020.
+- date: 2020-07
+  month: Jul
+  display_date: 07 / 2020
+  text: One paper was accepted by ECCV 2020 (Spotlight).
+- date: 2020-06
+  month: Jun
+  display_date: 06 / 2020
+  text: One paper was accepted by ICML 2020.
+- date: 2020-05
+  month: May
+  display_date: 05 / 2020
+  text: I will work as a research intern at Tencent Media Lab in Summer 2020.
+  links:
+  - label: Tencent Media Lab
+    url: https://avlab.qq.com/#/index
+- date: 2020-02
+  month: Feb
+  display_date: 02 / 2020
+  text: One paper was accepted by CVPR 2020.
+- date: 2020-01
+  month: Jan
+  display_date: 01 / 2020
+  text: I will work as a research intern at MIT-IBM Watson AI Lab in Spring 2020.
+  links:
+  - label: MIT-IBM Watson AI Lab
+    url: https://mitibmwatsonailab.mit.edu/
+- date: 2019-10
+  month: Oct
+  display_date: 10 / 2019
+  text: I received the student travel award by NeurIPS 2019 and will present my paper.
+    See you at Vancouver!
+- date: 2019-09
+  month: Sep
+  display_date: '09 / 2019'
+  text: One paper was accepted by NeurIPS 2019.
+- date: 2019-08
+  month: Aug
+  display_date: '08 / 2019'
+  text: I received the student travel award by ICCV 2019 and will present my two papers.
+    See you at Seoul!
+- date: 2019-07
+  month: Jul
+  display_date: 07 / 2019
+  text: Two papers were accepted by ICCV 2019.
+- date: 2019-05
+  month: May
+  display_date: 05 / 2019
+  text: One paper was accepted by IJCAI 2019.
+- date: 2019-05
+  month: May
+  display_date: 05 / 2019
+  text: I received the student travel award by ICLR 2019 and will present my paper.
+    See you at New Orleans!
+- date: 2018-12
+  month: Dec
+  display_date: 12 / 2018
+  text: One paper was accepted by ICLR 2019.

@@ -5,7 +5,7 @@
     <div class="publication-year">
       <h2>{{ year.name }}</h2>
       <ul class="news-list">
-        {% for item in year.items %}<li><time datetime="{{ item.date }}">{{ item.month }}</time><span>{{ item.text }}</span></li>{% endfor %}
+        {% for item in year.items %}<li><time datetime="{{ item.date }}">{{ item.month }}</time><span class="news-copy">{{ item.text }}{% if item.links %}<span class="news-links">{% for link in item.links %}{% assign first_character = link.url | slice: 0 %}<a href="{% if first_character == '/' %}{{ link.url | relative_url }}{% else %}{{ link.url }}{% endif %}">{{ link.label }} ↗</a>{% endfor %}</span>{% endif %}</span></li>{% endfor %}
       </ul>
     </div>
   {% endfor %}

@@ -24,7 +24,7 @@
 <section class="section recent-news">
   <p class="section-label">Recent News</p>
   <ul class="news-list">
-    {% for item in site.data.news limit: 5 %}<li><time datetime="{{ item.date }}">{{ item.display_date }}</time><span>{{ item.text }}</span></li>{% endfor %}
+    {% for item in site.data.news limit: 5 %}<li><time datetime="{{ item.date }}">{{ item.display_date }}</time><span class="news-copy">{{ item.text }}{% if item.links %}<span class="news-links">{% for link in item.links %}{% assign first_character = link.url | slice: 0 %}<a href="{% if first_character == '/' %}{{ link.url | relative_url }}{% else %}{{ link.url }}{% endif %}">{{ link.label }} ↗</a>{% endfor %}</span>{% endif %}</span></li>{% endfor %}
   </ul>
   <a class="more-link" href="{{ '/news.html' | relative_url }}">View all news →</a>
 </section>
