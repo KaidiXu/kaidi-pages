@@ -1,9 +1,30 @@
 <header class="content-header"><h1>Group</h1></header>
-{% for section in site.data.people.sections %}
-  <section class="people-section">
-    <h2>{{ section.title }}</h2>
+<section class="people-group">
+  <h2>Current Members</h2>
+  {% for section in site.data.people.current_members %}
+    <div class="people-subsection">
+      <h3>{{ section.title }}</h3>
+      <div class="member-list">
+        {% for member in section.members %}
+          <article class="member">
+            <img class="member-photo" src="{{ '/' | append: member.photo | relative_url }}" alt="Portrait of {{ member.name }}">
+            <div>
+              <h3><a href="{{ member.homepage }}">{{ member.name }}</a></h3>
+              <p class="member-meta">{{ member.role }} · Joined {{ member.joined }}</p>
+              {% if member.interests %}<p>{{ member.interests }}</p>{% endif %}
+              <a class="member-link" href="{{ member.homepage }}">Personal homepage ↗</a>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+</section>
+<section class="people-group">
+  <h2>Alumni</h2>
+  <div class="people-subsection">
     <div class="member-list">
-      {% for member in section.members %}
+      {% for member in site.data.people.alumni %}
         <article class="member">
           <img class="member-photo" src="{{ '/' | append: member.photo | relative_url }}" alt="Portrait of {{ member.name }}">
           <div>
@@ -15,6 +36,6 @@
         </article>
       {% endfor %}
     </div>
-  </section>
-{% endfor %}
+  </div>
+</section>
 <section class="section recruiting"><h2>{{ site.data.people.recruiting.title }}</h2><p>{{ site.data.people.recruiting.text }}</p></section>

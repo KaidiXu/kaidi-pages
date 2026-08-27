@@ -1,35 +1,59 @@
-sections:
-  - title: Current PhD Students
+current_members:
+  - title: PhD Students
     members:
-      - name: John Doe
+      - name: Tianshuo Wei
         role: PhD Student
-        joined: 2025
-        interests: Formal verification and neural network robustness.
-        photo: assets/demo-john-doe.png
-        homepage: "#"
-      - name: Jane Smith
-        role: PhD Student
-        joined: 2024
-        interests: Uncertainty quantification and trustworthy language models.
-        photo: assets/demo-jane-smith.png
-        homepage: "#"
-  - title: Current Master's Students
-    members:
-      - name: Emily Chen
-        role: Master's Student
         joined: 2026
-        interests: Adversarial machine learning and AI security.
-        photo: assets/demo-emily-chen.png
-        homepage: "#"
-  - title: Alumni
+        interests: Large language model memory systems and trustworthy AI.
+        photo: assets/tianshuo-wei.jpg
+        homepage: https://spicyrabbithead.github.io/
+      - name: Zhiyuan Wang
+        role: PhD Student
+        joined: 2026
+        interests: Uncertainty quantification and conformal prediction.
+        photo: assets/zhiyuan-wang.jpg
+        homepage: https://zhiyuan-gg.github.io/zhiyuanwang.github.io/
+      - name: Yu Huang
+        role: PhD Student
+        joined: 2026
+        interests: Multimodal language models for video intelligence and trustworthy AI.
+        photo: assets/yu-huang.jpg
+        homepage: https://hardenyu21.github.io/
+      - name: Shaoqing Lin
+        role: PhD Student
+        joined: 2026
+        interests: Uncertainty estimation for language models and reliable multi-step decision-making.
+        photo: assets/shaoqing-lin.jpg
+        homepage: https://shaoqlin.github.io/
+      - name: Shan Xie
+        role: PhD Student
+        joined: 2026
+        interests: Large language models.
+        photo: assets/shan-xie.png
+        homepage: https://cute149q.github.io/
+  - title: Postdoctoral Researchers
     members:
-      - name: Jinhao Duan
-        role: Ph.D.
-        joined: 2021
-        graduated: 2025
-        current_position: Postdoctoral Researcher, UNC-Chapel Hill
-        photo: assets/jinhao-duan-square.jpg
-        homepage: https://jinhaoduan.github.io/
+      - name: Jiawei Lian
+        role: Postdoctoral Researcher
+        joined: 2026
+        interests: AI safety and trustworthy AI for large language models, computer vision, and remote sensing.
+        photo: assets/jiawei-lian.jpg
+        homepage: https://jiaweilian.github.io/
+      - name: Jiangzhang Gan
+        role: Postdoctoral Researcher
+        joined: 2026
+        interests: Graph machine learning, trustworthy AI, and world action models.
+        photo: assets/jiangzhang-gan.jpg
+        homepage: https://hunnnj.github.io/
+
+alumni:
+  - name: Jinhao Duan
+    role: Ph.D.
+    joined: 2021
+    graduated: 2025
+    current_position: Postdoctoral Researcher, UNC-Chapel Hill
+    photo: assets/jinhao-duan-square.jpg
+    homepage: https://jinhaoduan.github.io/
 
 recruiting:
   title: Join the group
