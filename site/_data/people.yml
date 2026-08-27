@@ -25,11 +25,17 @@ current_members:
         interests: Uncertainty estimation for language models and reliable multi-step decision-making.
         photo: assets/shaoqing-lin.jpg
         homepage: https://shaoqlin.github.io/
+      - name: Yang Jing
+        role: PhD Student
+        joined: 2026
+        interests: AI safety, generative AI security, and deepfake detection.
+        photo: assets/yang-jing.jpg
+        homepage: https://imjingyang.github.io/
       - name: Shan Xie
         role: PhD Student
         joined: 2026
         interests: Large language models.
-        photo: assets/shan-xie.png
+        photo: assets/shan-xie.jpg
         homepage: https://cute149q.github.io/
   - title: Postdoctoral Researchers
     members:
