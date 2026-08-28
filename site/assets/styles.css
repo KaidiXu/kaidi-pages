@@ -115,6 +115,19 @@ footer { border-top: 1px solid var(--line); }
 .course h2 { margin: 0; font-family: var(--serif); font-size: 19px; font-weight: 500; }
 .course p { margin: 5px 0 0; color: var(--muted); font-size: 13px; }
 .course a { padding: 0 0 3px; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; font-size: 11px; font-weight: 800; text-decoration: none; }
+.openings-intro { max-width: 820px; padding: 38px 0 48px; }
+.openings-intro > p { margin: 0; font-size: 18px; line-height: 1.65; }
+.opening-section { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 60px; padding: 38px 0 44px; border-top: 1px solid var(--line); }
+.opening-section h2 { margin: 0; font-size: 21px; font-weight: 650; }
+.opening-section h3 { margin: 0 0 10px; font-size: 17px; font-weight: 650; }
+.opening-section p { margin: 0 0 18px; color: var(--muted); font-size: 15px; line-height: 1.65; }
+.opening-section ul { margin: 0; padding-left: 20px; }
+.opening-section li { padding-left: 4px; font-size: 15px; line-height: 1.65; }
+.opening-section li + li { margin-top: 7px; }
+.opening-position + .opening-position { margin-top: 28px; padding-top: 28px; border-top: 1px solid var(--line); }
+.opening-section a { text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.opening-links a { display: table; margin-bottom: 12px; font-size: 15px; font-weight: 650; text-decoration: none; }
+.opening-links p { margin-top: 24px; }
 /* Editorial */
 .editorial {
   --ink: #1d1d1f;
@@ -135,6 +148,7 @@ footer { border-top: 1px solid var(--line); }
 .editorial .publication-year h2,
 .editorial .people-group > h2,
 .editorial .course h2,
+.editorial .opening-section h2,
 .editorial .course-term,
 .editorial .paper-month,
 .editorial .prose p { font-family: inherit; }
@@ -210,6 +224,9 @@ html[data-theme="dark"] .editorial .portrait { filter: saturate(.82) brightness(
   .course a { grid-column: 2; justify-self: start; }
   .recruiting { gap: 48px; }
   .biography { grid-template-columns: 1fr; gap: 6px; }
+  .openings-intro { padding: 32px 0 40px; }
+  .openings-intro > p { font-size: 17px; }
+  .opening-section { grid-template-columns: 1fr; gap: 22px; padding: 32px 0 38px; }
   .footer-inner { flex-direction: column; }
 
   .editorial .hero { gap: 32px; padding: 42px 0 48px; }

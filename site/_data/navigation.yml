@@ -10,4 +10,6 @@
 - id: teaching
   label: Teaching
   file: teaching.html
-
+- id: openings
+  label: Openings
+  file: openings.html

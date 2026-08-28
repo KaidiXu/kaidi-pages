@@ -17,10 +17,6 @@
   <p class="section-label">Biography</p>
   <div class="prose">{% for paragraph in profile.biography %}<p>{{ paragraph }}</p>{% endfor %}</div>
 </section>
-<section class="section recruiting">
-  <h2>{{ profile.recruiting.title }}</h2>
-  <p>{{ profile.recruiting.text }}</p>
-</section>
 <section class="section recent-news">
   <p class="section-label">Recent News</p>
   {% assign month_names = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec" | split: "," %}
