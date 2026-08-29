@@ -10,6 +10,10 @@
     <div class="actions">
       {% for link in profile.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
     </div>
+    <div class="home-notes">
+      <p>Email: <button class="contact-email encoded-email" type="button" data-email="{{ profile.email.encoded_email }}" data-display-email>email</button></p>
+      <p>For available positions, please refer to the <a href="{{ '/openings.html' | relative_url }}">Openings page</a>.</p>
+    </div>
   </div>
   <div class="portrait-wrap"><img class="portrait" src="{{ '/' | append: profile.portrait | relative_url }}" alt="{{ profile.portrait_alt }}"></div>
 </section>

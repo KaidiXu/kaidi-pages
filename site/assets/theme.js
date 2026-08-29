@@ -3,6 +3,7 @@
   var root = document.documentElement;
   var toggle = document.querySelector(".theme-toggle");
   var systemPreference = window.matchMedia("(prefers-color-scheme: dark)");
+  var emailLinks = document.querySelectorAll(".encoded-email");
 
   function getSavedTheme() {
     try {
@@ -37,6 +38,18 @@
     if (!getSavedTheme()) {
       applyTheme(event.matches ? "dark" : "light");
     }
+  });
+
+  emailLinks.forEach(function (link) {
+    var address = window.atob(link.dataset.email);
+    if (link.hasAttribute("data-display-email")) {
+      link.textContent = address.replace("@", " [at] ").replace(/\./g, " [dot] ");
+    }
+
+    link.addEventListener("click", function () {
+      var subject = link.dataset.subject;
+      window.location.href = "mailto:" + address + (subject ? "?subject=" + encodeURIComponent(subject) : "");
+    });
   });
 
   applyTheme(root.dataset.theme || (systemPreference.matches ? "dark" : "light"));
