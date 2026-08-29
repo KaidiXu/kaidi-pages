@@ -2,20 +2,19 @@ introduction: >-
   The research group led by Prof. Kaidi Xu in the Department of Data Science at City University of Hong Kong invites applications from prospective PhD students and postdoctoral researchers. The group works on trustworthy AI, combining rigorous foundations with practical methods for building safer and more reliable AI systems. Funding is available for successful candidates.
 
 research_areas:
-  - Formal verification and certified robustness of neural networks
-  - Adversarial machine learning and practical AI security
+  - LLM agents，Reasoning, Trustworthy Foundation Models
   - Uncertainty quantification and reliable decision-making
-  - Trustworthy large language and multimodal models
+  - AI for Science
 
 positions:
   - title: PhD Students
     availability: Five PhD positions
-    term: Spring and Fall 2027
+    term: Fall 2027
     text: >-
       Applicants should have a strong academic background in computer science, data science, mathematics, engineering, or a related field. Prior research experience in machine learning, computer vision, natural language processing, security, formal methods, or optimization is particularly relevant. Applicants must also satisfy the formal admission requirements of the CityUHK PhD Programme in Data Science.
   - title: Postdoctoral Researchers
     availability: Two postdoctoral positions
-    term: Spring and Fall 2027
+    term: Fall 2027
     text: >-
       Candidates should hold, or be close to completing, a PhD in a relevant field and demonstrate the ability to conduct independent research. A strong publication record, clear technical writing, and experience developing reliable research code are valued.
 
@@ -26,7 +25,6 @@ application:
     - A brief introduction describing your research background, interests, and fit with the group
     - Curriculum vitae, including publications and research experience
     - Academic transcripts for completed and current degree programmes
-    - Links to representative papers, projects, code, or a personal homepage
     - Intended position and preferred starting term
 
 links:
