@@ -1,17 +1,22 @@
-- academic_year: 2026–27
+- academic_year: 2025/2026
+  semester: Semester B
+  code: DSC4009
+  title: Data Intelligence in Action
+  syllabus: "#"
+- academic_year: 2022–2025
   semester: Semester A
   code: CS486
   title: Robust Machine Learning
   description: Adversarial examples, robustness, certification, and reliable deployment.
   syllabus: "#"
-- academic_year: 2025–26
+- academic_year: 2023
   semester: Semester B
   code: CS613
   title: Machine Learning
   description: Foundations, algorithms, optimization, and modern applications.
   syllabus: "#"
-- academic_year: 2025–26
-  semester: Semester A
+- academic_year: 2022–2025
+  semester: Semester A/B
   code: CS616
   title: Robust Deep Learning
   description: Advanced topics in attacks, defenses, and neural network verification.
