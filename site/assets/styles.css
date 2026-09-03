@@ -111,7 +111,7 @@ footer { border-top: 1px solid var(--line); }
 .member-list { display: grid; grid-template-columns: 1fr 1fr; column-gap: 44px; }
 .member { position: relative; display: grid; grid-template-columns: 96px 1fr; gap: 20px; padding: 22px 0; }
 .member::after { position: absolute; right: 0; bottom: 0; left: 0; height: 1px; background: var(--line); content: ""; }
-.member-photo { width: 96px; height: 96px; border-radius: 2px; object-fit: cover; }
+.member-photo { width: 96px; height: 96px; align-self: start; border-radius: 2px; object-fit: cover; object-position: center top; }
 .member h3 { margin: 0 0 6px; font-family: var(--serif); font-size: 18px; font-weight: 500; }
 .member h3 a { text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .member p { margin: 0 0 7px; color: var(--muted); font-size: 13px; line-height: 1.5; }
