@@ -1,15 +1,15 @@
-- year: 2024
-  month: 5
-  text: Glad to receive the Best Poster Award at CEEGE 2026!
-  links:
-  - label: BestPosterCEEGE
-    url: "/assets/BestPosterCEEGE.jpg"
 - year: 2026
   month: 9
   text: Five papers were accepted (3× NeurIPS, 1x ACL, 1x MICCAI)!
 - year: 2026
   month: 8
   text: I am serving as an Area Chair for ICLR 2027.
+- year: 2024
+  month: 7
+  text: Glad to receive the Best Poster Award at CEEGE 2026!
+  links:
+  - label: BestPosterCEEGE
+    url: "/assets/BestPosterCEEGE.jpg"
 - year: 2026
   month: 5
   text: Two papers were accepted (2× ICML)!
